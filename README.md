@@ -44,12 +44,14 @@ This project is made using ROS 2
 6. Launch the Robot_model using the launch file, in case you want to launch the robot in Gazebo only.
 
     ```ROS2 launch Robot_model gazebo.launch.py```
+       <img width="1276" alt="image" src="https://github.com/HKyatham/ROS2_Robot_Toy_Car/assets/143352517/5dd91e42-5160-463a-b3bb-68258d8d3fe2">
+
 
      Launching both Gazebo and Rviz.
    
      ```ROS2 launch robot_model debug.launch.py```
 
-7. Launch the Teleop controller. Open a new terminal and type the below command.
+8. Launch the Teleop controller. Open a new terminal and type the below command.
 
     ```ROS2 run robot_model_control robot_teleop```
 
@@ -61,6 +63,6 @@ This project is made using ROS 2
       -a right steering angle
       -q Stop the robot
 
-8. Control the robot using a PID controller. Open a new terminal and type the below command.
+9. Control the robot using a PID controller. Open a new terminal and type the below command.
 
     ```ROS2 run robot_model_control robot_p_control```
